@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BE02D3D4256BF7D300261100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE02D3D3256BF7D300261100 /* AppDelegate.swift */; };
-		BE02D3D6256BF7D300261100 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE02D3D5256BF7D300261100 /* SceneDelegate.swift */; };
 		BE02D3D8256BF7D300261100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE02D3D7256BF7D300261100 /* ViewController.swift */; };
 		BE02D3DB256BF7D300261100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE02D3D9256BF7D300261100 /* Main.storyboard */; };
 		BE02D3DD256BF7D700261100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE02D3DC256BF7D700261100 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		BE02D3D0256BF7D300261100 /* todoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE02D3D3256BF7D300261100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE02D3D5256BF7D300261100 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BE02D3D7256BF7D300261100 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE02D3DA256BF7D300261100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE02D3DC256BF7D700261100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				BE02D3D3256BF7D300261100 /* AppDelegate.swift */,
-				BE02D3D5256BF7D300261100 /* SceneDelegate.swift */,
 				BE02D3D7256BF7D300261100 /* ViewController.swift */,
 				BE02D3D9256BF7D300261100 /* Main.storyboard */,
 				BE02D3DC256BF7D700261100 /* Assets.xcassets */,
@@ -261,7 +258,6 @@
 			files = (
 				BE02D3D8256BF7D300261100 /* ViewController.swift in Sources */,
 				BE02D3D4256BF7D300261100 /* AppDelegate.swift in Sources */,
-				BE02D3D6256BF7D300261100 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7X9XGLUDF;
 				INFOPLIST_FILE = todoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +441,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Chathura-Jayanaka.todoList";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7X9XGLUDF;
 				INFOPLIST_FILE = todoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Chathura-Jayanaka.todoList";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
