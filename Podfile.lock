@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - IQKeyboardManagerSwift (6.5.6)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - ObjectMapper (3.5.3)
+  - SimpleCheckbox (2.1.0)
+  - SwiftMessages (8.0.2):
+    - SwiftMessages/App (= 8.0.2)
+  - SwiftMessages/App (8.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireObjectMapper (~> 5.2)
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - SimpleCheckbox
+  - SwiftMessages
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - SimpleCheckbox
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  SimpleCheckbox: ddcd433ab8c3a8f57300bebda13151a8f302c7f9
+  SwiftMessages: 633304165351b8e3dcbb81a71f8efcd86f9c1669
+
+PODFILE CHECKSUM: 94a88ca5af307f4d81a9a8491ad2c7626ef15947
+
+COCOAPODS: 1.10.0.beta.1

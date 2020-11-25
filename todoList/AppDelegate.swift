@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  todoList
 //
-//  Created by LAYOUTindex on 11/23/20.
 //  Copyright © 2020 Chathura Jayanaka. All rights reserved.
 //
 
@@ -14,22 +13,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
-        presentInitialViewController()
 
+        presentInitialViewController()
         return true
     }
     
     func presentInitialViewController() {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = mainStoryboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        let viewController = mainStoryboard.instantiateViewController(withIdentifier: "ToDoListVC") as! ToDoListVC
         
-        let navigationController = UINavigationController.init(rootViewController: viewController)
-
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = navigationController
+        self.window?.rootViewController = viewController
         self.window?.makeKeyAndVisible()
     }
 

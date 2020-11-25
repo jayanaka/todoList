@@ -2,7 +2,6 @@
 //  todoListUITests.swift
 //  todoListUITests
 //
-//  Created by LAYOUTindex on 11/23/20.
 //  Copyright © 2020 Chathura Jayanaka. All rights reserved.
 //
 
